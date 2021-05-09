@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Infant Care Aiding Mobile Application</string>
+    <string name="feeding_title">Breast Feedings</string>
+    <string name="table_header_1">Date</string>
+    <string name="table_header_2">Time</string>
+    <string name="table_header_3">Fed (Min)</string>
+    <string name="table_header_4">Action</string>
+    <string name="start_btn">Start</string>
+    <string name="stop_btn">Stop</string>
+    <string name="reset_btn">Reset</string>
+    <string name="add_btn">Add Records</string>
+    <string name="view_btn">View Data</string>
+</resources>

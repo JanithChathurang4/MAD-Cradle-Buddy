@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.infantcareaidingmobileapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InfantCareAidingMobileApplication">
+        <activity android:name=".FeedingsActivity"></activity>
+        <activity android:name=".RecordActivity" />
+        <activity android:name=".ImagesActivity" />
+        <activity android:name=".MonthlyPhoto" />
+        <activity android:name=".InfantSignes" />
+        <activity android:name=".ICAMAHome" />
+        <activity android:name=".LogingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity" />
+    </application>
+
+</manifest>
